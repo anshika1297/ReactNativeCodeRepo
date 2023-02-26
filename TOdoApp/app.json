@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "AsyncStorage",
-    "slug": "AsyncStorage",
+    "name": "Todo APP",
+    "slug": "todoapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/logo.png",
+      "backgroundColor": "#B6A5FB"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +23,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+       
+        "backgroundColor": "#B6A5FB",
+        "image": "./assets/logo.png"
+      },
+      "package": "com.anshika.mishra1297.todoApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e611b1fa-296d-4d28-bea8-b4ddd7a09e29"
+      }
     }
   }
 }
